@@ -120,12 +120,52 @@ body{
 
 
 
-/* Header Form */
-
-
-
-
 /* Form Content */
+
+.content form{
+  margin-top: 20px;
+}
+.content form .email{
+  padding: 5px;
+}
+.email input{
+  margin-top: 7px;
+  border-radius: 3px;
+  padding: 3px;
+  height: 30px;
+  width: 100%;
+}
+.content form .password{
+  padding: 5px;
+  margin-top: 20px;
+}
+.password input{
+  margin-top: 7px;
+  padding: 3px;
+  height: 30px;
+  width: 100%;
+  border-radius: 3px;
+}
+.content form .checkbox{
+  display: flex;
+  margin-top: 20px;
+  padding: 5px;
+}
+.checkbox{
+  display: flex;
+  margin-top: 20px;
+  padding: 5px;
+}
+.checkbox input{
+  width: 18px;
+  height: 18px;
+}
+.checkbox p{
+  margin: 0 auto;
+  margin-left: 4px;
+  color: black;
+  font-variant: normal;
+}
 
 
 
