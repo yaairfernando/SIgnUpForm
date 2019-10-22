@@ -7,6 +7,47 @@ body{
 
 /* SingIn */
 
+.signInHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 10px 20px;
+}
+.signInHeader .signText{
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  text-align: right;
+}
+.signText small{
+  color: #51555c;
+}
+.signText .signlink{
+  font-size: 13px;
+  line-height: 1.5;
+  text-decoration: none;
+  font-weight: 100;
+}
+.signInHeader .btn{
+  display: flex;
+  width: 100px;
+}
+.signInHeader .signBtn{
+  width: 100%;
+  background-color: #3677d1;
+  border: 1px solid #26282b;
+  border-radius: 5px;
+  color: #fff;
+}
+.signBtn .lock{
+  display: flex;  
+}
+.lock img{
+  width: 15px;
+  text-align: center;
+  padding: 1px;
+  margin-right: 3px;
+}
 
 
 
