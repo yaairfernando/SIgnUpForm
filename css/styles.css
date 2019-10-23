@@ -192,9 +192,9 @@ li.turbotax{
   opacity: .9;
 }
 .content form div{
-  margin-top: 20px;
+  margin-bottom: 30px;
 }
-.email input, .password input, .tel input{
+.email input, .password input, .phone input{
   margin-top: 7px;
   border-radius: 3px;
   padding: 3px;
@@ -202,32 +202,47 @@ li.turbotax{
   width: 100%;
   border: 1px solid #aeaeae;
 }
-.content form .checkbox{
-  display: flex;
-  margin-top: 20px;
-  padding: 5px;
+.phone small{
+  font-size: 10px;
+  color: #4d4d4d;
+  cursor: none;
 }
-.checkbox{
-  display: flex;
-  margin-top: 20px;
-  padding: 5px;
+.phone small:hover{
+  list-style: none;
+  text-decoration: none;
 }
-.checkbox input{
-  width: 18px;
-  height: 18px;
-}
-.checkbox p{
-  margin: 0 auto;
-  margin-left: 4px;
-  color: black;
-  font-variant: normal;
+.btnsubmit .btn{
+  display: block;
+  width: 100%;
+  padding: 12px 0px;
+  color: #fff;
+  background-color: #0077C5;
+  border-radius: 4px;
+  border: #0077C5;
 }
 
 
 
 
 /* Form Terms */
-
+.terms{
+  text-align: center;
+  padding: 5px 31px;
+}
+.terms span{
+  font-size: 13px;
+  font-style: italic;
+  color: #757575;
+  line-height: 19px;
+  
+}
+.terms span a{
+  color: #0077C5;
+  text-decoration: none;
+}
+.terms span a:hover{
+  text-decoration: underline;
+}
 
 
 /* Form footer */
