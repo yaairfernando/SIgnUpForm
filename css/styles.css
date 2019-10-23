@@ -236,7 +236,7 @@ li.turbotax{
   line-height: 19px;
   
 }
-.terms span a{
+span a{
   color: #0077C5;
   text-decoration: none;
 }
@@ -246,18 +246,73 @@ li.turbotax{
 
 
 /* Form footer */
-
-
-
-
+.footerForm{
+  margin-top: 60px;
+  background-color: #ECEEF1;
+  margin: 30px -30px -30px;
+  padding: 13px 42px;
+  
+  
+}
+.footerForm span{
+  color: #8d9096;
+  font-size: 10px;
+}
+.sm{
+  font-size: 13px;
+  color: #26282b;
+  text-decoration: none;
+}
+.sm a{
+  text-decoration: none;
+  color:#0077C5;
+}
+.sm a:hover{
+  text-decoration: underline;
+  color:#0077C5;
+}
 /* Footer */
+footer .footer{
+  text-align: center;
+  color: #525252;
+  padding-bottom: 20px;
+}
+footer .footer ul{
+  display: inline;
 
-
-
+}
+.mt20{
+  margin-top: 20px;
+}
+.menuFooter li{
+  display: inline;
+  padding: 5px;
+}
+.menuFooter li a{
+  color: #525252;
+  font-size: 13px;
+  text-decoration: none;
+}
+.menuFooter li a:hover{
+  text-decoration: underline;
+}
+section.rights, section.terms{
+  font-size: 12.5px;
+  margin-top: 2px;
+  padding: 0px;
+  
+}
+.black{
+  color: #26282b!important;
+}
 /* MEDIAS */
 @media (max-width:768px){
   .signInHeader{
     display: none;
   }
 }
-
+@media (min-width:768px){
+  .sm{
+    display: none;
+  }
+}
