@@ -11,7 +11,7 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  padding: 10px 20px;
+  padding: 10px 40px;
 }
 .signInHeader .signText{
   display: flex;
@@ -27,6 +27,7 @@ body{
   line-height: 1.5;
   text-decoration: none;
   font-weight: 100;
+  color: #077AC6;
 }
 .signInHeader .btn{
   display: flex;
@@ -41,6 +42,7 @@ body{
 }
 .signBtn .lock{
   display: flex;  
+  padding: 3px 7px;
 }
 .lock img{
   width: 15px;
@@ -53,30 +55,86 @@ body{
 
 /* Header */
 .container{
-  width: 80%;
+  display: block;
   margin: 0 auto;
 }
 .container .form{
   margin: 0 auto;
-  margin-top: 10px;
 }
 .form .header h1{
   width: 180px;
   margin: 0 auto;
 }
-.header h1 img{
-  width: 100%;
+figure{
+  display: flex;
+  margin: 0px;
+}
+a.img{
+  margin: 0 auto;
+  width: 170px;
+  height: 59px;
+  background-image: url(../img/intuitlogo.png);
+  opacity: .8;
+}
+a.img{
+  background-position: 0 0;
+  background-size: 168px;
+  background-repeat: no-repeat;
 }
 .headerForm{
-  width: 25%;
+  width: 380px;
   margin: 0 auto;
 }
 .headerForm ul{
   display: flex;
+  padding: 0px;
 }
-.headerForm ul li{
+.headerForm ul .center{
+  display: flex;
+  margin: 0 auto;
+}
+.headerForm ul .group{
+  display: flex;
+  padding: 0px;
+  align-items: center;
+}
+.group small{
+  margin-right: 8px;
+}
+.headerForm ul li.mint{
+  background-image: url(../img/Mint.png);
+  height: 30px;
+  width: 100px;
+}
+li.mint{
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.headerForm ul li.quickbooks{
+  background-image: url(../img//quickbooks.png);
+  height: 30px;
+  width: 100px;
+}
+li.quickbooks{
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.headerForm ul li.turbotax{
+  background-image: url(../img/turbotax.png);
+  height: 30px;
+  width: 100px;
+}
+li.turbotax{
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.headerForm ul .group li{
   list-style: none;
-  width: 100%;
+  width: 30px;
+  cursor: pointer;
 }
 .headerForm ul li div{
   width: 100%;
@@ -89,29 +147,33 @@ body{
 }
 .headerForm small{
   margin-left: 7px;
-  color: #abadb2;
-  font-size: 16px;
+  color: #8D9096;
+  font-size: 17px;
+  cursor: pointer;
 }
 .form .content{
-  width: 29%;
+  width: 380px;
   margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #aeaeae;
+  padding: 30px;
+  border: 1px solid #C7C7C7;
   background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .content h2, p{
-  color: #5d5d5d;
-  margin-bottom: 3px;
-  font-variant-caps: small-caps;
+  color: #4C4C4C;
+  margin-top: 0px;
   font-weight: 400;
+  text-align: center;
+}
+.content p{
+  font-size: 14px;
+  margin: 0px;
 }
 .content small{
-  color: #93c5e6;
-  font-weight: bold;
-  letter-spacing: 1px;
+  color: #0077C5;
+  cursor: pointer;
 }
 .content small:hover{
   cursor: pointer;
@@ -125,26 +187,20 @@ body{
 .content form{
   margin-top: 20px;
 }
-.content form .email{
-  padding: 5px;
+.content form label{
+  font-size: 14px;
+  opacity: .9;
 }
-.email input{
-  margin-top: 7px;
-  border-radius: 3px;
-  padding: 3px;
-  height: 30px;
-  width: 100%;
-}
-.content form .password{
-  padding: 5px;
+.content form div{
   margin-top: 20px;
 }
-.password input{
+.email input, .password input, .tel input{
   margin-top: 7px;
-  padding: 3px;
-  height: 30px;
-  width: 100%;
   border-radius: 3px;
+  padding: 3px;
+  height: 37px;
+  width: 100%;
+  border: 1px solid #aeaeae;
 }
 .content form .checkbox{
   display: flex;
@@ -180,4 +236,13 @@ body{
 
 
 /* Footer */
+
+
+
+/* MEDIAS */
+@media (max-width:768px){
+  .signInHeader{
+    display: none;
+  }
+}
 
