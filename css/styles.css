@@ -262,9 +262,6 @@ p {
   border: #0077C5;
 }
 
-
-
-
 /* Form Terms */
 .terms {
   text-align: center;
@@ -275,7 +272,7 @@ p {
   font-size: 13px;
   font-style: italic;
   color: #757575;
-  line-height: 19px; 
+  line-height: 19px;
 }
 
 span a {
@@ -283,19 +280,26 @@ span a {
   text-decoration: none;
 }
 
+.sm a {
+  text-decoration: none;
+  color:#0077c5;
+}
+
+.sm a:hover {
+  text-decoration: underline;
+  color:#0077c5;
+}
+
 .terms span a:hover {
   text-decoration: underline;
 }
-
 
 /* Form footer */
 .footerForm {
   margin-top: 60px;
   background-color: #ECEEF1;
   margin: 30px -30px -30px;
-  padding: 13px 42px;
-  
-  
+  padding: 13px 42px;  
 }
 
 .footerForm span {
@@ -309,16 +313,6 @@ span a {
   text-decoration: none;
 }
 
-.sm a {
-  text-decoration: none;
-  color:#0077C5;
-}
-
-.sm a:hover {
-  text-decoration: underline;
-  color:#0077C5;
-}
-
 /* Footer */
 footer .footer {
   text-align: center;
@@ -328,7 +322,6 @@ footer .footer {
 
 footer .footer ul {
   display: inline;
-
 }
 
 .mt20 {
@@ -353,11 +346,11 @@ footer .footer ul {
 section.rights, section.terms {
   font-size: 12.5px;
   margin-top: 2px;
-  padding: 0px;  
+  padding: 0;
 }
 
 .black {
-  color: #26282b!important;
+  color: #26282b !important;
 }
 
 /* MEDIAS */
