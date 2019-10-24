@@ -284,7 +284,7 @@ span a {
 
 .sm a {
   text-decoration: none;
-  color:#0077c5;
+  color: #0077c5;
 }
 
 .menuFooter li a {
@@ -295,7 +295,7 @@ span a {
 
 .sm a :hover {
   text-decoration: underline;
-  color:#0077c5;
+  color: #0077c5;
 }
 
 .terms span a :hover {
@@ -308,7 +308,7 @@ span a {
   background-color: #eceef1;
   margin: 30px -30px -30px;
   margin-top: 60px;
-  padding: 13px 42px;  
+  padding: 13px 42px;
 }
 
 .footerForm span {
