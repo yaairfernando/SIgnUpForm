@@ -308,7 +308,8 @@ span a {
   background-color: #eceef1;
   margin: 30px -30px -30px;
   margin-top: 60px;
-  padding: 13px 42px;
+  padding: 13px 45px;
+  text-align: center;
 }
 
 .footerForm span {
