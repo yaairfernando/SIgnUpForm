@@ -6,7 +6,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a> -->
 
-  <h3 align="center">SignUp Form </h3>:smile:
+  <h3 align="center">SignUp Form :smile:</h3>
 
   <p align="center">
     Project developed with HTML5 and CSS3 that shows a signup form that allows the user to sign in.
